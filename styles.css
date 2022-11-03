@@ -197,45 +197,26 @@ header {
 /* viewports that are 1444px or LESS */
 @media screen and (max-width: 1444px) {
   .left-wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
-  }
-
-  .logo-wrapper {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     justify-content: center;
-    left: 0;
-    padding: 0;
-    /* border: dotted red 1px; */
+    margin: 0 auto;
+    width: 95%;
+    left: auto;
+    border: dotted red 1px;
+  }
+  .logo-wrapper {
+    position: relative;
+    left: 0%;
   }
   .logo-img {
-    position: static;
-    padding: 0;
-    width: 80%;
+    position: relative;
+    width: 15rem;
     margin: 0 auto;
     text-align: center;
   }
-  .icon-wrapper-left {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-items: end;
-    justify-content: center;
-    float: right;
-    right: 20px;
-    z-index: 1;
-    /* margin: 0 auto; */
-  }
-  .icon-wrapper {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    /* border: dotted red 1px; */
-  }
+
   .center {
     text-align: center;
   }
@@ -282,7 +263,9 @@ header {
     padding: 5px;
   }
   .logo-img {
-    width: 60%;
+    width: 15rem;
+    float: none;
+    margin: 0 auto;
   }
   .icon-wrapper {
     position: relative;
@@ -290,8 +273,6 @@ header {
     justify-content: center;
     right: auto;
     padding-top: 15px;
-    /* float: right; */
-    /* border: dotted red 1px; */
   }
   .project-item {
     text-align: center;
