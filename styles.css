@@ -214,9 +214,20 @@ header {
   .logo-img {
     position: static;
     padding: 0;
-    width: 35%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
+  }
+  .icon-wrapper-left {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    justify-content: center;
+    float: right;
+    right: 20px;
+    z-index: 1;
+    /* margin: 0 auto; */
   }
   .icon-wrapper {
     position: absolute;
