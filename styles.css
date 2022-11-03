@@ -204,7 +204,7 @@ header {
     margin: 0 auto;
     width: 95%;
     left: auto;
-    border: dotted red 1px;
+    /* border: dotted red 1px; */
   }
   .logo-wrapper {
     position: relative;
