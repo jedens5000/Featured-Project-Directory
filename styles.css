@@ -53,15 +53,15 @@ body {
   z-index: 1;
 }
 
-.icon-wrapper {
-  /* position: absolute; */
+/* .icon-wrapper {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-items: end;
   float: right;
   right: 20px;
-  /* border: dotted red 1px; */
-}
+  border: dotted red 1px;
+} */
 .icon-email,
 .icon-linkedin,
 .icon-github {
@@ -267,13 +267,13 @@ header {
     float: none;
     margin: 0 auto;
   }
-  .icon-wrapper {
+  /* .icon-wrapper {
     position: relative;
     flex-direction: row;
     justify-content: center;
     right: auto;
     padding-top: 15px;
-  }
+  } */
   .project-item {
     text-align: center;
   }
