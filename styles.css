@@ -194,9 +194,7 @@ header {
   display: inline-block;
   border: 2px solid #f7fff7;
 }
-/* .projects btn:hover {
-  background: rgba(47, 48, 97, 80%);
-} */
+
 .projects .btn:hover {
   text-decoration: none;
   border: 2px solid #946dff;
@@ -248,13 +246,6 @@ header {
 
 /* Scroll to top button
 ----------------------------------------------------------- */
-/* .section {
-  height: 100vh;
-  background: #dedede;
-  margin-bottom: 20px;
-  font-size: 100px;
-} */
-
 .scroll-container {
   position: absolute;
   top: 0;
